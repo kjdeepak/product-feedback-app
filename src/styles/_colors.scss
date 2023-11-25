@@ -1,0 +1,49 @@
+$custom-colors: (
+  "primary": #AD1FEA,
+  "secondary": #4661E6,
+  "info": #3A4374,
+  "warning": #F49F85,
+  "danger": #D73737,
+  "electric-purple": #AD1FEA,
+  "bright-lilac": #C75AF6,
+  "ultramarine-blue": #4661E6,
+  "lavender-blue": #7C91F9,
+  "rhino-one": #373F68,
+  "rhino-two": #3A4374,
+  "magnolia-one": #F2F4FE,
+  "magnolia-two": #F2F4FF,
+  "ghost-white": #F7F8FD,
+  "waikawa-grey-one": #647196,
+  "waikawa-grey-two": #656EA3,
+  "blush": #F49F85,
+  "crystal-blue": #62BCFA,
+  "jasper": #D73737,
+  "light-coral": #E98888,
+  "white": #FFFFFF,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+:root {
+  --primary: #AD1FEA;
+  --secondary: #4661E6;
+  --info: #3A4374;
+  --warning: #F49F85;
+  --danger: #D73737;
+  --electric-purple: #AD1FEA;
+  --bright-lilac: #C75AF6;
+  --ultramarine-blue: #4661E6;
+  --lavender-blue: #7C91F9;
+  --rhino-one: #373F68;
+  --rhino-two: #3A4374;
+  --magnolia-one: #F2F4FE;
+  --magnolia-two: #F2F4FF;
+  --ghost-white: #F7F8FD;
+  --waikawa-grey-one: #647196;
+  --waikawa-grey-two: #656EA3;
+  --blush: #F49F85;
+  --crystal-blue: #62BCFA;
+  --jasper: #D73737;
+  --light-coral: #E98888;
+  --white: #FFFFFF;
+}

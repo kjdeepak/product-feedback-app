@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "./styles/colors";
+$enable-negative-margins: true;
+
+// @import "./styles/reset";
+@import "./styles/font";
+@import "./styles/typography";
+@import "./styles/buttons";
+@import "./styles/component";
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+

@@ -1,0 +1,50 @@
+$h1-font-size: $font-size-base * 1.5;
+$h2-font-size: $font-size-base * 1.25;
+$h3-font-size: $font-size-base * 1.125;
+$h4-font-size: $font-size-base * 0.875;
+
+.kj-h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.33;
+}
+
+.kj-h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: -0.25;
+}
+
+.kj-h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25;
+}
+
+.kj-h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.2;
+}
+
+.kj-body1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.kj-body2 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.kj-body3 {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+}

@@ -1,0 +1,70 @@
+%kj-custom-btn {
+    width: 158px;
+    height: 44px;
+    border-radius: 10px;
+    color: var(--magnolia-one) !important;
+}
+
+%kj-custom-back-btn {
+    width: 158px;
+    height: 53px;
+    border-radius: 10px;
+}
+
+.kj-btn-primary {
+    @extend %kj-custom-btn;
+    background-color: var(--electric-purple) !important;
+
+    &:hover {
+        background-color: var(--bright-lilac) !important;
+    }
+}
+
+.kj-btn-secondary {
+    @extend %kj-custom-btn;
+    background-color: var(--ultramarine-blue) !important;
+
+    &:hover {
+        background-color: var(--lavender-blue) !important;
+    }
+}
+
+.kj-btn-info {
+    @extend %kj-custom-btn;
+    background-color: var(--rhino-two) !important;
+
+    &:hover {
+        background-color: var(--waikawa-grey-two) !important;
+    }
+}
+
+.kj-btn-danger {
+    @extend %kj-custom-btn;
+    background-color: var(--jasper) !important;
+
+    &:hover {
+        background-color: var(--light-coral) !important;
+    }
+}
+
+.kj-btn-primary-back {
+    @extend %kj-custom-back-btn;
+    background-color: transparent !important;
+    color: var(--waikawa-grey-one) !important;
+
+    &:hover {
+        background-color: transparent !important;
+        text-decoration: underline !important;
+    }
+}
+
+.kj-btn-secondary-back {
+    @extend %kj-custom-back-btn;
+    background-color: var(--rhino-one) !important;
+    color: var(--white) !important;
+
+    &:hover {
+        background-color: var(--rhino-one) !important;
+        text-decoration: underline !important;
+    }
+}
